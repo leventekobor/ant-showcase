@@ -1,0 +1,30 @@
+input[type="date"] {
+    font-family: Roboto;
+    max-width: 203px;
+    background: #FFFFFF;
+    border: solid rgb(217, 217, 217);
+    color: rgb(217, 217, 217);
+    border-radius: 2px;
+    height: 32px;
+    padding-left: 12px;
+}
+
+input[type="date"]:focus {
+    color: #95a5a6;
+    outline: none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+
+.version-1::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    /*display: none;*/
+}
+
+.fa-calendar-o {
+    position: relative;
+    margin-left: 190px;
+    margin-top: -26px;
+    color: rgb(217, 217, 217);
+}

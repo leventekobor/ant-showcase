@@ -81,3 +81,9 @@ a:hover {
   align-items: baseline;
   justify-content: space-evenly;
 }
+
+.display-data-entry {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
