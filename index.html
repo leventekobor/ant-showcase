@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="buttons.css">
     <link rel="stylesheet" href="data-entry.css">
     <link rel="icon" href="img/tigra-ikon.ico" type="image/x-icon">
-
+    
+    
     <!-- flatpickr -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <script defer type="text/javascript" src="index.js"></script>
   </head>   
   <body>
     <div class="main-layout">
@@ -24,6 +27,7 @@
         <a href="#buttons">Gombok</a>
         <a href="#layout">Elhelyezkedés</a>
         <a href="#data-entry">Adat bevitel</a>
+        <a href="#date-entry">Dátum bevitel</a>
       </div>
       <div class="content">
         <h4 id="typography">Tipográfia</h4>
@@ -132,6 +136,35 @@
         <h4 id="data-entry">Adat bevitel</h4>
         <div class="buttons">
           <div class="display-data-entry">
+          </div>
+        </div>
+        <h4 id="date-entry">Dátum bevitel</h4>
+        <div class="typography">
+          <div class="display-data-entry">
+            <span class="title">Simple date picker</span>
+            <div class="display-data-entry">
+              <input id="datePicker" class="date" type="text" placeholder="Select Date">
+            </div>
+            <hr>
+            <span class="title">No weekend date picker</span>
+            <div class="display-data-entry">
+              <input id="noWeekEndDatePicker" class="date" type="text" placeholder="Select Date">
+            </div>
+            <hr>
+            <span class="title">Range date picker</span>
+            <div class="display-data-entry">
+              <input id="rangeDatePicker" class="date" type="text" placeholder="Select Date">
+            </div>
+            <hr>
+            <span class="title">Inline date picker</span>
+            <div class="display-data-entry">
+              <input id="inlineDatePicker" class="date" type="text" placeholder="Select Date">
+            </div>
+            <hr>
+            <span class="title">Only time picker</span>
+            <div class="display-data-entry">
+              <input id="onlyTimeDatePicker" class="date" type="text" placeholder="Select Date">
+            </div>
           </div>
         </div>
       </div>

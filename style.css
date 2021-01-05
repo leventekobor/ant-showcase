@@ -83,7 +83,7 @@ a:hover {
 }
 
 .display-data-entry {
-  margin: 20px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
 }
