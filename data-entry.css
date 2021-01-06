@@ -10,7 +10,7 @@
     color: rgb(217, 217, 217);
 }
 
-input {
+input[type="text"] {
     margin-bottom: 4px;
     font-size: 16px;
     font-family: Roboto;
@@ -28,4 +28,14 @@ input:focus {
     outline: none;
     border-color:#9ecaed;
     box-shadow:0 0 10px #9ecaed;
+}
+
+input[type="checkbox"] {
+    color: red;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.display-checkbox-row {
+    display: flex;
 }

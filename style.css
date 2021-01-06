@@ -54,6 +54,11 @@ a:hover {
   display: flex;
 }
 
+.title2 {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
 .buttons {
   white-space: pre-wrap;
   font-size: 1em;
@@ -62,6 +67,12 @@ a:hover {
   grid-gap: 1.5rem;
   background-color: white;
   margin: 10px;
+}
+
+.checkboxes {
+  white-space: pre-wrap;
+  font-size: 1em;
+  background-color: white;
 }
 
 .display-buttons {
